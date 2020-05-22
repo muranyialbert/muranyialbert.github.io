@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color:#424243;
+	color:#FBFBEF;
+	font-size:16px;
+	min-width:400px;
+	font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+	margin:0
+}
+.nev {
+	display: grid;
+	color: #F7F8E0;
+	text-align: center;
+	background-color: #585858;
+	height: 70px;
+	align-items: center;
+	
+}
+.menu {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	height: 50px;
+	margin-top:0;
+}
+.gombegy {
+	display: grid;
+	background-color: #424243;
+	color: #ff0000;
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+	transition-duration: 0.3s;
+}
+.gombegy:hover {
+	background-color: #585858;
+	color: #F7F8E0;
+}
+.box{
+	background-color:#0d001a;
+	width:90%;
+	line-height:24px;
+	padding:20px;
+	margin:40px auto;
+	text-align:center;
+}
+.illusztr{
+	background-color: #0d001a ;
+	width:70%;
+	margin:40px auto 40px auto;
+}
+.h1{
+	text-align:center;
+	line-height:30px;
+}
+p, blockquote{
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.doboz, .szovegkontener {
+     text-align: center;
+     padding: 0.3em 1.2em;
+	 width:90%;
+}
+  a:link{
+      color:#6666ff;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  a:visited{
+    color: #6666ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+ .alresz{
+     font-size: 1.1em;
+ }
+ .borítókép{
+     width: 100%;
+	 margin-top:10px;
+ }
+  .szovegkontener{
+      margin-top: 1.6em;
+      padding: 1em;
+  }
+ .kekkontener{
+     width: 100%;
+	 background-color:#00004d; 
+     color: #F7F8E0;
+     padding-bottom: 2em;
+
+ }
+  .adress{
+      margin-top:2em;
+      font-stretch: expanded;
+      letter-spacing: 0.05em;
+  }
+ footer{
+     padding: 1em 3em 1em 3em;
+    background-color: #424243;
+    color: white;
+ }
+  .alair{
+      text-align: center;
+      font-size: xx-large;
+      width: 100%;
+      font-style: bold;
+      font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+  }
+
+  .masikkontener{
+      width: 100%;
+      font-size: medium;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+  }

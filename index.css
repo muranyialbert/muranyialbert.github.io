@@ -1,0 +1,112 @@
+
+body{
+	background-color:#424243;
+	color:#db4345;
+	font-size:20px;
+	min-width:400px;
+	line-height:27px;
+	font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+	margin:0
+	
+}
+.nev {
+	display: grid;
+	color: #F7F8E0;
+	text-align: center;
+	background-color: #585858;
+	height: 70px;
+	align-items: center;
+	
+}
+.menu {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	height: 50px;
+	margin-top:0;
+}
+.gombegy {
+	display: grid;
+	background-color: #424243;
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+	transition-duration: 0.3s;
+}
+.gombegy:hover {
+	background-color: #585858;
+	color: #F7F8E0;
+}
+p, blockquote{
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ .doboz, .szovegkontener {
+     text-align: center;
+     padding: 0.3em 1.2em;
+}
+ 
+  header{
+      display: flex;
+      justify-content: space-between;
+
+}
+  a:link{
+      color:#db4345;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  a:visited{
+    color: #db4345;
+    background-color: transparent;
+    text-decoration: none;
+}
+ .alresz{
+     font-size: 1.1em;
+ }
+ .borítókép{
+     width: 100%;
+	 margin-top:10px;
+ }
+  .szovegkontener{
+      margin-top: 1.6em;
+      padding: 1em;
+  }
+ .kekkontener{
+     width: 100%;
+     background: #0B3B24 ; 
+     color: #F7F8E0;
+     padding-bottom: 2em;
+
+ }
+  .adress{
+      margin-top:2em;
+      font-stretch: expanded;
+      letter-spacing: 0.05em;
+  }
+ footer{
+     padding: 1em 3em 1em 3em;
+    background-color: #424243;
+    color: white;
+ }
+  .alair{
+      text-align: center;
+      font-size: xx-large;
+      width: 100%;
+      font-style: bold;
+      font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+  }
+
+  .masikkontener{
+      width: 100%;
+      font-size: medium;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+  }
+
